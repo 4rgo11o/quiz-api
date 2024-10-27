@@ -1,0 +1,44 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Configuração de ambiente
+.env
+
+# Diretório de build ou dist (caso exista)
+build/
+dist/
+
+# Diretório de uploads ou arquivos temporários
+tmp/
+uploads/
+
+# Configuração do Editor/IDE
+.vscode/
+.idea/
+
+# Dependências do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configurações do sistema operacional (Mac e Windows)
+*.swp
+*.swo
+
+# Arquivos de banco de dados SQLite (caso utilizados)
+*.sqlite
+*.sqlite3
+
+# Cobertura de testes
+coverage/
+
+# Arquivos de cache
+.cache/
+.cache-loader/
+*.tsbuildinfo
