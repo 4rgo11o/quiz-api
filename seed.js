@@ -68,7 +68,7 @@ async function populateDatabase() {
       await OpcaoResposta.bulkCreate(
         perguntaData.opcoes_resposta.map((opcao) => ({
           ...opcao,
-          perguntaId: pergunta.id,
+          id_pergunta: pergunta.id,
         }))
       );
     }
