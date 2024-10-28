@@ -1,6 +1,6 @@
 const Pergunta = require('./models/Pergunta');
 const OpcaoResposta = require('./models/OpcaoResposta');
-const sequelize = require('./config/db'); // A conexão com o banco de dados
+const { sequelize } = require('./config/db'); // A conexão com o banco de dados
 
 async function populateDatabase() {
   try {
